@@ -7,7 +7,7 @@ on:
     - cron: "17 2 * * *"
   push:
     branches:
-      - drop_py38_build_img_x
+      - drop_py38_build_img
 
 jobs:
   model-ci:
